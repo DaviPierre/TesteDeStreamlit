@@ -14,4 +14,6 @@ install: venv/bin/python3
 commit:
 	- git add .
 	- git commit -m "Commit automático"
-	
+	- git push
+	- DaviPierre
+	- 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
