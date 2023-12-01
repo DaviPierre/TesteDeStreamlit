@@ -12,7 +12,7 @@ Este é um aplicativo simples de calculadora criado com Streamlit em Python. Ele
 1. Clone este repositório:
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone LINK_DO_REPOSITÓRIO
     ```
 
 2. Navegue até o diretório do projeto:
@@ -21,15 +21,14 @@ Este é um aplicativo simples de calculadora criado com Streamlit em Python. Ele
     cd seu-repositorio
     ```
 
-3. Instale as dependências:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Como Executar
 
 Execute o aplicativo Streamlit com o seguinte comando:
 
 ```bash
-streamlit run calculadora.py
+make run
+
+## Como Testar
+Para executar os arquivos de teste use o seguinte comando:
+```bash
+make test
