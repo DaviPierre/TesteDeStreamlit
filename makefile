@@ -1,9 +1,12 @@
 PYTHON = ./venv/bin/python3
 PIP = ./venv/bin/pip3
 
-
 run: install
-	- $(PYTHON) teste.py
+	- streamlit run app.py
+
+
+test: install
+	- python3 tests.py
 
 venv/bin/python3:
 	- python3 -m venv venv
