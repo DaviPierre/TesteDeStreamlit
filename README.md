@@ -23,14 +23,14 @@ Este é um aplicativo simples de calculadora criado com Streamlit em Python. Ele
 
 ## Como Executar
 
-Execute o aplicativo Streamlit com o seguinte comando:
+    Execute o aplicativo Streamlit com o seguinte comando:
 
-```bash
-make run
-```
+    ```bash
+    make run
+    ```
 
 ## Como Testar
-Para executar os arquivos de teste use o seguinte comando:
-```bash
-make test
-```
+    Para executar os arquivos de teste use o seguinte comando:
+    ```bash
+    make test
+    ```
