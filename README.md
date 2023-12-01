@@ -27,8 +27,10 @@ Execute o aplicativo Streamlit com o seguinte comando:
 
 ```bash
 make run
+```
 
 ## Como Testar
 Para executar os arquivos de teste use o seguinte comando:
 ```bash
 make test
+```
